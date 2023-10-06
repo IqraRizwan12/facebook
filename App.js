@@ -21,11 +21,11 @@ function App() {
 
   ]
 
-
+  const currentDate = new Date()
   return (
     <div className="App">
       <header className="App-header">
-        <Facebook title='Pictures of flowers' username='Iqra Rizwan' profilePic='https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80' />
+        <Facebook title='Pictures of flowers' date={currentDate} username='Iqra Rizwan' profilePic='https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80' />
         <div style={{width:700}}>
           <FbImageLibrary images={images} />
         </div>

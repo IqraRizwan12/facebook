@@ -49,6 +49,7 @@
 
 
 .emojis:hover .images{
+  
   opacity: 1 ;
   visibility: visible;
   z-index: 1;
@@ -56,4 +57,5 @@
 
 .emojis{
   display: inline;
+  
 }

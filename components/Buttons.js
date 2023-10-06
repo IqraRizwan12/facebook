@@ -17,12 +17,13 @@ function Buttons() {
         </center>
         < button className="aaa" style={{ backgroundColor: "black", width: 100 }}>Like</button>
       </div>
+      
       <div style={{display:"inline-block"}}>
-        <button style={{ backgroundColor: "black", width: 100 }}>Comment</button>
-        <button style={{ backgroundColor: "black", width: 100 }}>Share</button>
+        <button style={{ backgroundColor: "black", width: 120 ,marginLeft:20 }}>Comment</button>
+        <button style={{ backgroundColor: "black", width: 100,marginLeft:30 }}>Share</button>
       </div>
+      
     </div>
-
 
   )
 }
